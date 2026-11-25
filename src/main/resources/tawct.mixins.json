@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.aiefu.timeandwindct.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DimensionMixins",
+    "PlayerManagerMixins",
+    "PlayerMixins",
+    "ServerPlayerMixins",
+    "ServerWorldMixins",
+    "TimeCommandMixins"
+  ],
+  "client": [
+    "ClientWorldMixins",
+    "IntegratedServerMixins"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
